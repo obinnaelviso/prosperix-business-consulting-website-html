@@ -1,0 +1,191 @@
+:root {
+  --primary-color: #008080;
+  --primary-color-accent: #20CFC614;
+
+}
+
+* {
+  font-family: Inter, Helvetica, sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  align-items: center;
+}
+
+section {
+  margin-top: 65px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 68px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  color: #575757;
+  line-height: 28px;
+}
+
+.site-logo {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links > li > a {
+  color: black;
+  font-weight: 500;
+}
+
+.nav-links > li > a:hover {
+  color: var(--primary-color);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.cta {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: white;
+}
+
+.btn-link {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.hero > p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+input:focus {
+  outline: none;
+}
+
+.hero-left {
+  flex: 1 1 0;
+}
+
+.hero-right {
+  flex: 1 1 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.contact-input {
+  border: none;
+  padding: 20px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.g-10 {
+  gap: 10px;
+}
+
+.g-20 {
+  gap: 20px;
+}
+
+.g-30 {
+  gap: 30px;
+}
+
+.g-40 {
+  gap: 40px;
+}
+
+.g-50 {
+  gap: 50px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.input-group {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 0px 40px #0000001f;
+}
+
+.input-group > img {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.sponsors-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  filter: grayscale(1);
+  opacity: 0.5;
+}
